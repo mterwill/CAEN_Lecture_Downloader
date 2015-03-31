@@ -1,0 +1,26 @@
+{
+  "name": "CAEN Lecture Downloader",
+  "version": "1.1",
+  "description": "Download CAEN lecture videos",
+  "author": "Matt Terwilliger (mterwil@umich.edu)",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-48.png",
+    "default_title" : "Download CAEN lecture video"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab",
+    "downloads"
+  ],
+  "icons" : {
+    "19" : "icon-19.png",
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
